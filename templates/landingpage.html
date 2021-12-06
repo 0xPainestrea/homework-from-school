@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Animated Css Lib-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+
+    <title>นาฎศิลป์</title>
+
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color:#fbfbfb;        
+        }
+        .content-box{
+            padding-top: 4.5rem;
+            padding-bottom: 12rem;
+        }
+        .photo-sensei{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px; 
+        }
+        .display-1{
+            font-weight: 700;
+        }
+        nav{
+            background-color: #ffffff;
+        }
+        .set-footer-color{
+            background: #282c34;
+        }
+   
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg py-2 sticky-top navbar-light bg-white">
+        <div class="container px-5">
+            <a class="navbar-brand" style="font-size: 28px; font-weight: bold;" href="/"><b>นาฏศิลป์</b></a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active me-lg-4" aria-current="page" href="/"><i class="fa fa-home"></i> &nbsp;หน้าเเรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-lg-4" href="/history"><i class="fa fa-address-card"></i> &nbsp;ประวัติ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-lg-4" href="/creative"><i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i> &nbsp;ผลงานสร้างสรรค์ด้านการแสดง</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-lg-3" href="/academic"><i class="fa fa-graduation-cap"></i> &nbsp;ผลงานด้านวิชาการ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-lg-3" href="/experince"><i class="fa fa-star"></i> &nbsp;ประสบการณ์ด้านการแสดง</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-lg-3" href="/photo"><i class="fa fa-picture-o" aria-hidden="true" style='font-size:16px;'></i> &nbsp;รวมภาพ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+
+    {% block content %}
+    <div class="content-box" style="background-color: #f1f1f1; ">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center ">
+                
+                <div class="col-lg-6 animate__animated animate__slideInDown">
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <h1 class="display-1 lh1 mb-3 mt-3">ไม่มีผู้ใดประสบความสําเร็จ โดยปราศจาก “คําดูถูก”</h1>
+                            <p>อาจารย์ จตุพร รัตนวราหะ ไม่ได้กล่าว</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="photo-sensei">
+                            <img class="shadow-lg" style="border-radius: 5px;" src="https://lh3.googleusercontent.com/proxy/URr03mDSm_Qh9Xi3hi9ca6_ubI9qH6qYF8DkJIq6pFdMtz4Z_rd1-bzxser4kuQK30jBamk3vMOgN3FcsoWV-Pr4uCDCzFtdFwglZD2dwFYBKnZRISa8n-wOhfv_vGzzyuhyHHfwzRcfTZsqLb0ftsi5-HLvqlmyiHUc4-cTazRftZDGMhHZ6X67TCFzn9KvYmOtcQ" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   {% endblock content %}
+</div>
+    <footer class="text-center text-white footer set-footer-color">
+        <!-- Grid container --> 
+        <div class="container p-4 pb-0 set-footer-color">
+          <!-- Section: Social media -->
+          <section class="mb-4 set-footer-color">
+            <!-- Facebook -->
+            <marquee scrollamount=15><b><h5>บุคคลสำคัญของวงการนาฏศิลป์และการละครไทย ครูจตุพร รัตนวราหะ (ครูต้อย)</h5></b></marquee>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #20232a;">
+        <div>
+          <b>Create by :</b>
+          <a class="text-white" href="https://www.facebook.com/ball.kaewprom" target="_blank">|&nbsp;<i class="fab fa-facebook-f"></i>&nbsp;Alongkorn 8&nbsp;|</a>
+          <a class="text-white" href="https://www.facebook.com/thanakrit.jomhong" target="_blank"><i class="fab fa-facebook-f"></i>&nbsp;Thanakrit 11&nbsp;|</a>
+          <a class="text-white" href="https://www.facebook.com/Poonpipat.Siri" target="_blank"><i class="fab fa-facebook-f"></i>&nbsp;Poonpipat 14&nbsp;|</a>
+          <a class="text-white" href="https://www.facebook.com/saksiri.neamkline" target="_blank"><i class="fab fa-facebook-f"></i>&nbsp;Saksiri 16&nbsp;|</a>
+        </div>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script type="text/javascript">
+        var app = document.getElementById('typed');
+        var app2 = document.getElementById('typed2');
+        var typewriter = new Typewriter(app, { loop: false });
+        var typewriter2 = new Typewriter(app2, { loop: false });
+        typewriter.typeString("ไม่มีผู้ใดประสบความสําเร็จโดยปราศจาก <br>“คําดูถูก” ").start();
+        typewriter2.pauseFor(2500).typeString("ครูจตุพร รัตนวราหะ ไม่ได้กล่าว").start();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+{% extends 'landingpage.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+    
+    <style>
+     
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color:#fbfbfb;     
+        }
+        .container2 {
+            max-width: 800px;
+            margin-top: 140px;
+            margin-right: auto;
+            margin-bottom: 140px;
+            margin-left: auto;
+            background-color: #fff;
+            padding: 0 25px 25px;
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+            -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+            -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+            text-align: center;
+        }
+
+        .avatar-flip {
+            border-radius: 100px;
+            overflow: hidden;
+            height: 150px;
+            width: 150px;
+            position: relative;
+            margin: auto;
+            top: -60px;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            box-shadow: 0 0 0 13px #f0f0f0;
+            -webkit-box-shadow: 0 0 0 13px #f0f0f0;
+            -moz-box-shadow: 0 0 0 13px #f0f0f0;
+        }
+        .avatar-flip img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 100px;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+        }
+        h2 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        h4 {
+            font-size: 22px;
+            letter-spacing: 1px;
+            margin-bottom: 18px;
+        }
+     
+        p {
+            font-size: 18px;
+            line-height: 26px;
+            margin-bottom: 35px;
+            color: #666;
+        }
+        img{
+            object-fit: cover;
+        }
+      
+
+    </style>
+</head>
+<body>
+    
+    <div class="ml-3 mr-3">
+        <div class="container2 shadow-lg">
+            <div class="avatar-flip">
+            <a class="nav-link active me-lg-3" href="/photo">
+              <img src="https://sbynew.files.wordpress.com/2013/10/57ahtgxqlv.jpg" height="150" width="150">
+            </a>
+            </div>
+            <h2>นาย จตุพร รัตนวราหะ</h2>
+            <h4>ศิลปินแห่งชาติ</h4>
+            <div class="card-footer text-justify"></div>
+            <p class="text-center">นาย จตุพร รัตนวราหะ (ต้อย) เกิดวันพุธที่ ๙ ธันวาคม พ.ศ. ๒๔๗๙ จบจากโรงเรียนนาฏศิลป์ วิทยาลัย<br>นาฏศิลป์กรุงเทพฯ เรียนจบครุศาสตร์บัณฑิต และได้อุปสมบทเป็นพระภิกษุที่ วัดบวรนิเวศวิหาร กรุงเทพมหานคร พุทธศักราช ๒๕๐๗ ปัจจุบันอายุ ๘๔ ปี เป็นศิลปินกรมศิลปากร ผู้ได้รับพระราชทานครอบและรับมอบกระบวนท่ารำเพลงหน้าพาทย์องค์พระพิราพ ได้กราบทูลสอนโขนถวายพระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว และ มีผลงานการแสดงเป็นตัวเอกในเรื่องรามเกียรติ์บทยักษ์ใหญ่ทศกัณฐ์เป็นบทที่อยู่ในความทรงจำของคนรักโขนกรมศิลปากรมานานกว่า ๔๔ ปี เป็นผู้ร่วมงานเคียงข้าง ศ.มรว.คึกฤทธิ์ ปราโมชในการก่อตั้งและสร้างสรรค์โขน-ธรรมศาสตร์ เป็นผู้อำนวยการสถานศึกษาที่มีการเรียนการสอนด้านศิลปะการแสดงของรัฐ นอกจากนี้มีผลงานโดดเด่นอื่นๆทางด้านโขนและละครทั้งด้านการเป็นศิลปินผู้แสดง เป็นผู้สอน ผู้เผยแพร่ทั้งทางด้านปฏิบัติและทฤษฎี ปัจจุบันแม้จะเกษียณอายุราชการแล้ว ก็ยังทำงานด้านการเผยแพร่ศิลปะการแสดงอยู่อย่างต่อเนื่องสม่ำเสมอ และได้รับการยกย่องเชิดชูเกียรติเป็นศิลปินแห่งชาติ สาขาศิลปะการแสดง (นาฏศิลป์-โขน) พุทธศักราช ๒๕๕๒</p>
+        </div>
+    </div>
+
+   
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+    {% endblock content %}
+</body>
+</html>
+
